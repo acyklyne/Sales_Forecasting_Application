@@ -117,7 +117,7 @@ const FileUpload = ({ onFileUpload, error }) => {
           disabled={loading}
         />
         <Form.Text className="text-muted">
-          File must be CSV format with headers: sales_date, product_description, quantity_sold
+          File must be CSV format with headers: sales_date (YYYY-MM), product_description (Walter Mattress), quantity_sold (27)
         </Form.Text>
       </Form.Group>
 
